@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:notify/core/extensions/extensions.dart';
-import 'package:notify/core/note_model.dart';
-import 'package:notify/features/note/viewmodel/note_viewmodel.dart';
+import 'package:tafaqquh_note/core/extensions/extensions.dart';
+import 'package:tafaqquh_note/core/note_model.dart';
+import 'package:tafaqquh_note/features/note/viewmodel/note_viewmodel.dart';
 
 class NotedetailPage extends ConsumerStatefulWidget {
   final String selectedNoteID;

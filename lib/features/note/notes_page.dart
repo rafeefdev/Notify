@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:notify/core/extensions/theme_extensions.dart';
-import 'package:notify/core/get_initials.dart';
-import 'package:notify/core/note_model.dart';
-import 'package:notify/features/auth/user_model.dart';
-import 'package:notify/features/note/view/notedetail_page.dart';
-import 'package:notify/features/note/view/notegridtile_component.dart';
-import 'package:notify/features/note/viewmodel/note_viewmodel.dart';
+import 'package:tafaqquh_note/core/extensions/theme_extensions.dart';
+import 'package:tafaqquh_note/core/get_initials.dart';
+import 'package:tafaqquh_note/core/note_model.dart';
+import 'package:tafaqquh_note/features/auth/user_model.dart';
+import 'package:tafaqquh_note/features/note/view/notedetail_page.dart';
+import 'package:tafaqquh_note/features/note/view/notegridtile_component.dart';
+import 'package:tafaqquh_note/features/note/viewmodel/note_viewmodel.dart';
 
 class HomePage extends ConsumerWidget {
   final User? currentUser = User(name: 'jaka', email: 'jaka@gmail.com');

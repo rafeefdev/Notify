@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:notify/core/extensions/theme_extensions.dart';
-import 'package:notify/core/note_model.dart';
+import 'package:tafaqquh_note/core/extensions/theme_extensions.dart';
+import 'package:tafaqquh_note/core/note_model.dart';
 
 class NoteGridTile extends StatelessWidget {
   final Note note;
