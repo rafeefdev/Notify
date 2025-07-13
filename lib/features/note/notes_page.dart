@@ -197,7 +197,7 @@ class _BuildNotes extends StatelessWidget {
 
     return SliverGrid.count(
       crossAxisCount: 2,
-      childAspectRatio: 7 / 8,
+      childAspectRatio: 9.5 / 8,
       crossAxisSpacing: 8,
       mainAxisSpacing: 12,
       children: notes.map((note) {
