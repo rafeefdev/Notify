@@ -13,7 +13,7 @@ You need to have the [Flutter SDK](https://flutter.dev/docs/get-started/install)
 
 1.  **Clone the repository:**
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/rafeefdev/Tafaqquh-Note.git
     ```
 
 2.  **Navigate to the project directory:**
